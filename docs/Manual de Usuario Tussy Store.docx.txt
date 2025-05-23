@@ -1,0 +1,1059 @@
+﻿Manual de usuario de Tussy Store
+
+
+Introducción
+
+
+El presente manual de usuario tiene como finalidad dar a conocer de manera detallada y sencilla la estructura de Tussy Store, para que cualquier usuario pueda comprender por completo sus funciones. El sitio fue diseñado para que cualquier persona pueda comprar ropa de forma intuitiva y sencilla
+
+
+
+
+Objetivos 
+
+
+El objetivo es brindar una descripción clara y detallada sobre el uso y funcionamiento de los distintos elementos que se encuentran en la página web, todo esto con el fin de guiar a los usuarios en el uso de la página
+
+
+Alcance
+
+
+Este manual de usuario aplica la gestión y operación de la plataforma, Incluye la creación, administración y actualización de productos en el catálogo, la gestión de cuentas de clientes y administradores, el proceso de compra y pago, así como la administración de pedidos y devoluciones. También abarca la configuración de métodos de pago, seguimiento de envíos y la atención al cliente dentro de la plataforma.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contenido
+Usabilidad        4
+Diseño de interfaz        4
+Home Page        5
+Header        5
+Contenido        6
+Bloque – Lo más vendido y Prendas más interesantes        6
+Bloque – Carrusel y logo del ChatBot        8
+Footer        9
+Login y Registro        9
+Registro        10
+Inicio de Sesión        11
+Recuperar contraseña        12
+Catalogo        13
+Contenido del catalogo        14
+Filtros desplegables        15
+Vista del producto        16
+Información del producto        17
+Carrito        18
+Vista del carrito        18
+Dirección de envió        20
+Métodos de pago        21
+Métodos de pago – Bancolombia o Nequi        22
+Revisión del pedido        23
+Revisión del pedido – pedido ordenado        24
+Perfil        25
+Perfil – Cambio de foto        26
+Perfil – Eliminar cuenta        27
+Perfil – Mis ordenes        28
+Perfil - Favoritos        29
+Perfil – Mis direcciones        30
+Perfil – Añadir dirección        31
+Contacto y soporte        32
+ChatBot        32
+
+
+Indice de figuras
+Ilustración 1 HomePage: Header        5
+Ilustración 2 HomePage: Contenido - Lo más vendido y Prendas más interesantes        6
+Ilustración 3 HomePage: Contenido – Carrusel y logo ChatBot        8
+Ilustración 4 Homepage: Footer        9
+Ilustración 5 HomePage: No login        9
+Ilustración 6 Registro        10
+Ilustración 7 Inicio de sesión        11
+Ilustración 8 Recuperar contraseña        12
+Ilustración 9 Catalogo: Funciones        13
+Ilustración 10 Catalogo: Contenido        14
+Ilustración 11 Catalogo: Filtros desplegables        15
+Ilustración 12 Vista del producto        16
+Ilustración 13 Vista del producto: Información productos        17
+Ilustración 14 Carrito        18
+Ilustración 15 Dirección de envió        20
+Ilustración 16 Método de pago: Mercado Pago        21
+Ilustración 17 Método de pago: Bancolombia - Nequi        22
+Ilustración 18 Revisión del pedido        23
+Ilustración 19 Revisión del pedido: Pedido Ordenado        24
+Ilustración 20 Perfil: Información personal        25
+Ilustración 21 Perfil: Cambio foto de perfil        26
+Ilustración 22 Perfil: Eliminar Cuenta        27
+Ilustración 23 Perfil: Mis ordenes        28
+Ilustración 24 Perfil: Favoritos        29
+Ilustración 25 Perfil: Mis direcciones        30
+Ilustración 26 Perfil: Añadir dirección        31
+Ilustración 27 Contacto y Soporte: ChatBot        32
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Usabilidad
+
+
+* Organizar, clasificar y estructurar la información del sitio web, de acuerdo con las necesidades que tenga el usuario
+* Diseñar un menú intuitivo con categorías claras para facilitar la búsqueda y compra de productos. Incluir filtros avanzados por talla, color, marca y precio.
+* Implementar un proceso de compra rápido y sencillo, reduciendo la cantidad de pasos necesarios para finalizar la transacción.
+
+
+Diseño de interfaz 
+El diseño debe garantizar que las interfaces y espacios interactivos con los que se relacionaran los usuarios estén a la altura de sus necesidades y expectativas, que este diseño cumpla con su sencillez:
+
+
+* Analizar y evaluar las necesidades de los usuarios, enfocándose principalmente en las características interactivas de la página.
+* Definir el comportamiento que tendrá la interfaz en la interacción con los usuarios.
+* Usar métodos de evaluación propios, para corroborar que la página satisface las necesidades de sus usuarios.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Home Page
+
+
+Una vez el usuario ingrese a la página web de tussy store, lo primero que se podrá observar es la página principal del sitio web
+
+
+Header
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+Ilustración 1 HomePage: Header
+
+
+1/ En el header se puede encontrar aparatados de acceso rápido como: Home, Catálogo y Sobre Nosotros, esto permite que el usuario acceda de forma más rápido. 
+
+
+2/ Además del menú superior, se puede encontrar el icono de búsqueda con el cual se puede buscar de forma directa un producto en específico.
+
+
+3/ Se puede apreciar un icono de corazón el cual tiene la función de guardar tus prendas favoritas.
+
+
+4/ Se puede apreciar un icono de una bolsa la cual simula el “carrito”, en este se guardan las prendas que hallas elegido. 
+
+
+5/ Al final del todo se encuentra un icono que es el icono del perfil, el cual tiene la función de abrir el perfil del usuario.
+
+
+6/ Se puede apreciar el menú desplegable el cual aparece al pasar el cursor sobre el apartado “catalogo” que se ubica en el header, en este menú despegable se pueden ver las categorías de prendas que tiene la página.
+
+
+Contenido
+Bloque – Lo más vendido y Prendas más interesantes
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+Ilustración 2 HomePage: Contenido - Lo más vendido y Prendas más interesantes
+7/ En este primer bloque de contenido se puede ver el apartado de “Lo más vendido”, en el cual se puede apreciar la prenda, nombre de la prenda, una pequeña descripción de la prenda junto a su precio y descuento (el descuento puede variar entre las diferentes prendas). 
+
+
+8/ Se puede apreciar un icono de un corazón, el cual tiene la función de guardar las prendas que escojas como favoritas. Al escoger una prenda como favorita, este corazón se tornará rojo. Esta función aparece al poner el puntero encima de la prenda. 
+
+
+9/ Ahora se puede apreciar el “agregar al carrito”, este botón como el anterior solo aparece cuando pasa el puntero por encima de una prenda. Este botón sirve para agregar la prenda al carrito.
+
+
+10/ Este es el segundo bloque de contenido, el cual muestra información adicional sobre las prendas que se venden en la página. En este caso sería “Prendas más interesantes”, donde puedes ver las prendas que están teniendo relevancia en la página.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bloque – Carrusel y logo del ChatBot
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+
+Ilustración 3 HomePage: Contenido – Carrusel y logo ChatBot
+11/ En este apartado se puede ver una imagen la cual lleva publicidad de las prendas de ropa que contiene la página.
+
+
+12/ Los usuarios podrán encontrar un logo de un robot el cual es un chat de ayuda por si tienen alguna duda o problema en la web.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+Footer
+  
+  
+
+ A screenshot of a computer
+
+AI-generated content may be incorrect. 
+  
+  
+  
+  
+  
+  
+
+Ilustración 4 Homepage: Footer
+13/ El footer contiene elementos de información de la página como: Sobre nosotros, información de entrega, política de privacidad, términos y condiciones y un número de contacto junto al Gmail. También puedes registrarte directamente e información de tu cuento o carrito. 
+
+
+14/ Se pueden ver los métodos de pago que maneja la página y los cuales aparecen en la pasarela de pago a la hora de pagar.
+
+
+15/ Se puede apreciar las redes que maneja la página, la cuales se utilizan para promocionar la página y su ropa, se usa Instagram, TikTok, X y WhatsApp.
+Login y Registro
+
+
+El usuario puede registrase e iniciar sesión
+
+
+  
+  
+  
+
+Ilustración 5 HomePage: No login
+1/ Se puede apreciar un botón que dice “login” el cual te llevare al usuario al apartado para logearse.
+
+
+Registro
+  
+  
+  
+  
+  
+  
+  
+
+Ilustración 6 Registro
+2/ En este apartado se puede ver el formulario de registro que debe seguir un usuario que no tenga cuenta y quiera crear una. Se pueden apreciar campos como: Nombres, apellidos, email, edad, contraseña. Confirmar contraseña y la casilla de verificación que son necesarios para crear la cuenta.
+
+
+3/ Se puede ver un texto que dice “¿Ya tienes cuenta?”, y al lado de este otro que dice “Iniciar Sesión”. Si le das a este ya teniendo una cuenta creada, te enviará al inicio de sesión de tu cuenta, ya creada con anterioridad.
+
+
+4/ En este punto se puede ver un botón con el logo de Google. Este sirve para crear tu cuenta con un correo de Gmail; esto ahorra el tener que llenar todos los campos del formulario y te redirige a la página.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Inicio de Sesión
+
+
+ A screenshot of a computer screen
+
+AI-generated content may be incorrect. 
+  
+  
+  
+  
+
+Ilustración 7 Inicio de sesión
+5/ Al tener ya una cuenta creada, pero no tener tu sesión activa, te enviará al inicio de sesión, donde solo tendrás que poner el email con el cual creaste la cuenta y la contraseña y darle al botón iniciar sesión. Tienes un cuadro de validación, que sirve para recordar la contraseña siempre que quieras iniciar la sesión de nuevo. Como en el punto anterior, puedes iniciar sesión con el botón de Google. Por último, en caso de olvida la contraseña le puedes dar “Recuperar contraseña”, esto te enviara al apartado de recuperar contraseña
+
+
+6/ Aquí tienes un texto que dice “¿No tienes cuenta?”, y a su lado otro texto que dice “Regístrate”. En caso de no tener cuenta, esto te enviará al formulario para crear la cuenta.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Recuperar contraseña
+  
+
+  
+  
+
+Ilustración 8 Recuperar contraseña
+7/ Esta es la vista en la cual podrás recuperar la contraseña en el caso de que la hayas olvidado. Puedes el email con el cual creaste la cuenta y te enviará al correo la forma de cambiar la contraseña. Cuando tengas la nueva contraseña, podrás volver a registrarte con normalidad 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Catalogo
+
+
+Aquí podrás ver el catálogo y los productos que ofrece Tussy Store
+
+
+  
+  
+  
+  
+  
+  
+  
+
+Ilustración 9 Catalogo: Funciones
+1/ Aquí puedes ver las rutas que has tomado, este “breadcrumb” ayuda a que los usuarios puedan entender la su ubicación dentro del sitio y esto facilita la navegación.
+
+
+2/ En este punto, los usuarios pueden ordenar el catálogo como más les convenga, ya sea “ordenado por más nuevo” u “ordenado por más vendido”.
+
+
+3/ Los usuarios pueden filtrar las prendas desde este apartado, pueden filtrar las categorías de las prendas, filtrar por el precio o filtrar por la talla. Dependiendo de lo que escoja el usuario, le aparecerán las prendas con base en los filtros.
+
+
+4/ En este punto, el usuario puede apreciar el contenido que ofrece el catálogo. Se puede apreciar el botón de “agregar el carrito” y el “corazón” que los envía a tus favoritos, estos 2 siendo descritos con anterioridad.
+
+
+Contenido del catalogo
+
+
+  
+  
+  
+  
+  
+
+Ilustración 10 Catalogo: Contenido
+4/ En este punto, el usuario puede apreciar el contenido que ofrece el catálogo. Se puede apreciar el botón de “agregar el carrito” y el “corazón” que los envía a tus favoritos, estos 2 siendo descritos con anterioridad.
+
+
+5/ Los usuarios pueden ver entre las distintas páginas que trae el catálogo y las prendas que hay en él, pueden darle a los números o las flechas para ir pasando las páginas del catálogo.
+
+
+
+
+
+
+
+
+
+
+Filtros desplegables
+
+
+  
+  
+  
+
+Ilustración 11 Catalogo: Filtros desplegables
+6/ Los filtros del catálogo se pueden desplegar siempre que lo desea el usuario, así podrá ocultar los filtros que no quiera usar y dejar una interfaz más limpia.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Vista del producto
+
+
+Los usuarios, después de darle clic a alguna prenda, esta lo enviará a la vista del producto, el cual muestra información más detallada del producto.
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+Ilustración 12 Vista del producto
+
+
+        
+
+
+1/ Los usuarios pueden ver la prenda con más detalle y sus diferentes ángulos (si tiene).
+
+
+2/ En este punto se puede ver la información de la prenda, información como: precio, descripción, descuento y su descripción. 
+
+
+3/ El usuario puede escoger la talla de la prenda dependiendo de la que necesite. Las tallas varían dependiendo de las prendas.
+
+
+4/ Aquí el usuario puede agregar la cantidad de prendas que quiera, ya sea 1 o más prendas. También cuenta con el botón de “agregar al carrito” y el icono de “Mis favoritos”.
+
+
+5/ Al final, los usuarios pueden encontrar información más detallada sobre la prenda que haya escogido. Esta información habla sobre el producto, ya sea su tela, marca o detalles de la prenda.
+
+
+Información del producto
+
+
+  
+  
+  
+  
+  
+  
+  
+
+Ilustración 13 Vista del producto: Información productos
+6/ Los usuarios, al entrar a alguna prenda, pueden encontrar este mensaje, el cual avisa al usuario de que no quedan más existencias de esas prendas.
+7/ Aquí se encuentra la información del producto, como el tallaje que maneja la prenda, y los colores que puede tener.
+
+
+8/ Al final, el usuario puede ver los productos relacionados con la prenda que se está mirando.
+Carrito
+Aquí se podrá ver cómo funciona el carrito para el pago de las prendas.
+
+
+Vista del carrito
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+Ilustración 14 Carrito
+
+
+
+
+1/ En este apartado los usuarios pueden ver las prendas junto a su precio y el tallaje escogido. Esto ayuda al usuario a identificar si era la prenda que quería.
+
+
+2/ El usuario aquí puede ver la cantidad de prendas que escogió y a su vez puede editar la cantidad si lo desea.
+
+
+3/ Aquí el usuario puede ver el subtotal que tendrá la prenda. Esta varía del número de prendas que haya escogido, también por si quiere quitar alguna prenda escogida. Tendrá un símbolo de “basura”, lo cual eliminaría la prenda del carrito.
+
+
+4/ Por último, el usuario podrá ver el subtotal de la compra con el costo del envío incluido. También está la opción de agregar un código con descuento, pero este no influirá en la compra a no ser que el usuario tenga algún código de descuento. Al final de este apartado del subtotal hay un botón que dice “Proceder con el pago”. Este te enviará a la pasarela de pago.
+
+
+
+
+
+
+
+
+
+
+
+
+Dirección de envió
+  
+  
+  
+  
+  
+  
+  
+
+Ilustración 15 Dirección de envió
+5/ En este apartado los usuarios pueden ver los pasos que ha de tomar para completar el pago de las prendas y también ver en el paso en el que se encuentra.
+
+
+6/ Aquí los usuarios que ya hayan registrado su dirección y la hayan guardado, la podrán escoger automáticamente, también editar la dirección si hubo algún dato incorrecto o borrar esta dirección. El guardar la dirección ayuda a completar más rápido el proceso de compra de los productos. 
+
+
+7/ Por último, el usuario tendrá el formulario para agregar su dirección; esta trae campos como: Dirección, departamento, barrio, municipio, número de apartamento (esto solo aplica a gente viva en un apartamento), indicaciones para la entrega, nombre y apellido y su teléfono, por último, si el usuario puede guardar la dirección para próximas compras. 
+Métodos de pago
+  
+  
+  
+
+Ilustración 16 Método de pago: Mercado Pago
+8/ Los usuarios pueden ver y escoger el método de pago que más vean conveniente, ya sea por mercado pago, Bancolombia, Nequi o pago contra entrega. Cuando el usuario escoja el método de pago, llenará los datos necesarios para la culminación del pago.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Métodos de pago – Bancolombia o Nequi
+
+
+ A screenshot of a computer
+
+AI-generated content may be incorrect. 
+  
+  
+
+Ilustración 17 Método de pago: Bancolombia - Nequi
+9/ En el caso de Bancolombia o Nequi, el usuario tendrá la opción de pagar un QR, así facilitando más el método de pago.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Revisión del pedido
+
+
+  
+  
+  
+
+Ilustración 18 Revisión del pedido
+10/ Aquí el usuario podrá visualizar el resumen de su compra, lo que pagó, las prendas que compró, la dirección a la que llega y una fecha estimada de llegada. En casi de equivocarse, ya sé en el método de pago o dirección, tiene la oportunidad de cambiar o editarlo antes de ordenar el pedido.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Revisión del pedido – pedido ordenado
+
+
+  
+  
+  
+
+Ilustración 19 Revisión del pedido: Pedido Ordenado
+11/ Después de ordenar el pedido, al usuario le aparecerá una ventana emergente, la cual dirá que su pedido fue confirmado y dando gracias por la compra. Por último, tendrá la opción de ver el pedido o de volver al inicio.
+
+
+
+
+
+
+
+
+
+
+
+
+Perfil
+Aquí se podrá ver el perfil del usuario y sus funciones.
+
+
+  
+  
+  
+  
+  
+
+Ilustración 20 Perfil: Información personal
+1/ En este apartado el usuario puede ver su información personal, las órdenes que haya hecho, los favoritos y las direcciones guardadas. También cuenta con la función de “eliminar cuenta”, con la cual el usuario podrá eliminar la cuenta si lo desea.
+
+
+2/ El usuario aquí puede editar sus datos personales como el nombre, apellidos, teléfono. Correo y dirección, a su vez el usuario puede cambiar su foto de perfil.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Perfil – Cambio de foto
+  
+
+  
+  
+
+Ilustración 21 Perfil: Cambio foto de perfil
+3/ Los usuarios, pueden cambiar su foto de perfil por la que quieran. Al darle al cambiar foto de perfil, podrán arrastrar alguna foto que tengas en sus archivos. después de subir la imagen, le darán aceptar y se cambiará la foto de perfil.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Perfil – Eliminar cuenta
+
+
+  
+  
+  
+
+Ilustración 22 Perfil: Eliminar Cuenta
+4/ Los usuarios, después de darle al botón de “eliminar cuenta”, les saldrá una ventana emergente para confirmar si están seguros de querer eliminar su cuenta.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Perfil – Mis ordenes
+
+
+  
+  
+  
+  
+  
+
+Ilustración 23 Perfil: Mis ordenes
+5/ En este punto, al darle “Mis órdenes”, los usuarios pueden ver las órdenes que han pedido. La información que pueden ver es el producto que se pidió, el precio, tallas, cantidad y lo más importante, el estado en el que se encuentra el pedido ya sea tanto enviado como cancelado o en proceso.
+
+
+6/ Aquí los usuarios tienen la opción de ver la orden más a detalle y volver a comprar si lo desean o si alguno de sus pedidos está en proceso, antes de 30 minutos pueden cancelar el pedido si lo desean.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Perfil - Favoritos
+
+
+  
+  
+  
+
+Ilustración 24 Perfil: Favoritos
+7/ Los usuarios pueden ver las prendas que hayan colado en sus favoritos, desde aquí pueden agregar las prendas al carrito o quitarlas si así lo desean. Si quieren quitar la prenda, tienen arriba a la derecha un icono de “basura”, el cual eliminará la prenda. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Perfil – Mis direcciones
+
+
+  
+  
+  
+
+Ilustración 25 Perfil: Mis direcciones
+8/ Los usuarios aquí pueden agregar la dirección a la cual les llegarán los pedidos, a su vez se pueden editar o borrar las direcciones que hayan creado, esto les ayudará a completar más rápido los datos para la compra de algún producto.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Perfil – Añadir dirección
+
+
+  
+  
+  
+
+Ilustración 26 Perfil: Añadir dirección
+9/ Por último, los usuarios pueden guardar la dirección llenando este formulario, el cual les pide diferentes datos antes explicados. Al rellenar los datos, le deben dar al botón de añadir dirección y esta les quedará guardada. La pueden usar al rellenar los datos para la compra de algún producto.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Contacto y soporte
+ChatBot  
+ Interfaz de usuario gráfica, Aplicación
+
+El contenido generado por IA puede ser incorrecto. 
+  
+  
+  
+  
+  
+
+Ilustración 27 Contacto y Soporte: ChatBot
+1/ Con esta función los usuarios podrán minimizar la ventana del chatbot, devolviéndolos a la página en la que le dieron clic al logo del robot.
+
+
+2/ Esta función son las dudas o problemas predeterminadas que tiene el Bot, en caso tal de que ninguna opción le ayude con su problema o duda el Bot le envía un link de un formulario de Google el cual sirve para que los administradores se contacten con el para solucionar las dudas o problemas, en este formulario el usuario tendrá que diligenciar lo siguiente:
+- Nombres y Apellidos
+- Correo Electrónico
+- Número de contacto
+- El problema o la duda que tenga
+- Imagen del problema (Hasta 5 imágenes)
+- Seleccionar si quiere ser contactado por vía email o WPP
+3/ Cuadro de mensaje para que el usuario pueda escribir su duda o problema al Bot sin necesidad de las opciones.

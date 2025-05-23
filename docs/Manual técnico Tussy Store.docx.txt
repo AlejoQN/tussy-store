@@ -1,0 +1,497 @@
+﻿Manual técnico – Tussy Store
+
+
+
+
+Proyecto realizado con el fin de obtener el título en Análisis y Desarrollo de Software
+
+
+
+
+Sebastián Chica
+Ethan Leal
+Duvan Alejandro Castañeda Quiñonez
+
+
+
+
+Servicio Nacional de Aprendizaje SENA
+
+
+
+
+Itagüí, Antioquia, Colombia
+
+
+
+
+2025
+
+
+
+
+
+
+Contenido
+INTRODUCCIÓN        3
+NOMBRE DEL PROYECTO        3
+OBJETIVOS        3
+Objetivo General:        3
+Objetivos Específicos:        3
+Alcance del Proyecto        4
+RESPONSABLES DEL PROYECTO        4
+PALABRAS CLAVE        4
+REQUISITOS TÉCNICOS        5
+Hardware Requerido        5
+Software Requerido        5
+Base de Datos        6
+Tablas y Relaciones        6
+Seguridad y Protección de Datos        10
+Protección de contraseñas        10
+Protección de Endpoints        10
+Prevención de Ataques:        11
+Despliegue y Mantenimiento        11
+Plataforma de Hosting        11
+Método de Despliegue        11
+Gestor de Logs y Errores        12
+Optimización y Escalabilidad        12
+Gestión de Tráfico        12
+Optimizaciones en Frontend        13
+Mejoras en Base de Datos        13
+Panel de Administración        14
+Funciones        14
+Seguridad y Privacidad        14
+Protección de Datos        14
+Eliminación de Cuenta        15
+Prevención de Fraudes        15
+DIAGRAMAS        17
+Diagrama de Clases        17
+Diagrama de Casos de Uso        18
+Mapa Mental de la Página Web        19
+Diagrama Entidad-Relación        20
+
+
+Índice de Tablas
+Tabla 1 Responsables del proyecto        4
+Tabla 2 Hardware Requerido        5
+Tabla 3 Software Requerido        5
+Tabla 4 BD: Tabla usuarios        6
+Tabla 5 BD: Tabla Productos        7
+Tabla 6 BD: Tabla Categorías        7
+Tabla 7 BD: Tabla Subcategorías        8
+Tabla 8 BD: Tabla Carrito        8
+Tabla 9 BD: Tabla Pedidos        9
+Tabla 10 BD: Tabla Pagos        10
+
+
+índice de Figuras
+Ilustración 1 Diagrama de clases        17
+Ilustración 2 Diagrama de Casos de Uso        18
+Ilustración 3 Mapa mental        19
+Ilustración 4 Diagrama Entidad-Relación        20
+
+
+
+
+
+
+INTRODUCCIÓN
+Este documento presenta el manual técnico de Tussy Store, una tienda en línea dedicada a la venta de ropa y accesorios. Se describen los aspectos técnicos, herramientas utilizadas y la estructura del sistema.
+NOMBRE DEL PROYECTO
+Tussy Store
+OBJETIVOS
+Objetivo General:
+Desarrollar una plataforma de e-commerce eficiente para la venta de ropa y accesorios.
+Objetivos Específicos:
+* Diseñar una interfaz de usuario intuitiva y responsiva para facilitar la navegación en la tienda. 
+* Desarrollar un sistema de autenticación seguro que permita el registro e inicio de sesión de los usuarios.
+* Implementar una base de datos eficiente para la gestión de productos, usuarios y pedidos.
+* Integrar pasarelas de pago seguras para permitir transacciones en línea confiables.
+* Optimizar el rendimiento del sitio web para garantizar tiempos de carga rápidos.
+* Implementar medidas de seguridad para la protección de datos personales y financieros de los usuarios.
+* Realizar pruebas de funcionalidad y usabilidad para mejorar la experiencia del usuario final.
+
+
+
+
+
+
+Alcance del Proyecto
+El sistema permitirá a los clientes registrarse, iniciar sesión, explorar el catálogo, agregar productos al carrito, realizar compras, modificar datos del perfil, modificar direcciones y gestionar sus pedidos.
+RESPONSABLES DEL PROYECTO
+Tabla 1 Responsables del proyecto
+Nombres y Apellidos
+	Edad
+	Ocupación 
+	Duvan Castañeda
+	18
+	Estudiante de tecnología en Análisis y desarrollo de software
+	Sebastian Chica
+	19
+	Estudiante de tecnología en Análisis y Desarrollo de Software
+	Ethan Leal
+	20
+	Estudiante de tecnología en Análisis y Desarrollo de Software
+	
+
+
+
+PALABRAS CLAVE
+* E-commerce: Comercio electrónico para la venta de productos.
+* Frontend: Interfaz visual del usuario en la tienda.
+* Backend: Lógica del servidor que maneja la tienda.
+* Base de datos: Almacén de información del sistema.
+* Seguridad: Protección de datos y transacciones.
+* UI/UX: Diseño y experiencia de usuario en la tienda. 
+* API REST: Interfaz para la comunicación entre el frontend y backend. 
+* Framework: Conjunto de herramientas para facilitar el desarrollo (Ej. Laravel). 
+* Hosting: Servidor donde se almacena y ejecuta la página web. 
+* Responsividad: Adaptabilidad de la web a distintos dispositivos. 
+* Pasarela de pagos: Sistema que permite realizar transacciones en línea. 
+* Autenticación: Proceso para verificar la identidad de los usuarios. 
+* Carrito de compras: Módulo que permite a los usuarios gestionar sus productos antes de pagar. 
+REQUISITOS TÉCNICOS
+Para el desarrollo y mantenimiento de Tussy Store, se recomienda el siguiente entorno técnico:
+Hardware Requerido
+Tabla 2 Hardware Requerido
+Componente
+	Requisito Minimo
+	Requisito Recomendado
+	Procesador
+	Intel Core i3 o AMD Ryzen 3
+	Intel Core i7 o AMD Ryzen 7
+	Memoria RAM
+	8 GB
+	16 GB
+	Almacenamiento
+	50 GB de espacio libre
+	SSD 256 GB o más
+	Conexión a internet
+	Conexión estable
+	Conexión estable
+	
+
+Software Requerido
+Tabla 3 Software Requerido
+Herramienta
+	Versión recomendada
+	Descripción
+	Sistema Operativo
+	Windows 10/11, macOS 12+
+	Entorno de desarrollo
+	Lenguajes
+	JavaScript (ES6+)
+	Programación del frontend y backend
+	Frameworks – Frontend
+	Next.js 14, TailwindCSS 3
+	Desarrollo de interfaz
+	Frameworks – Backend
+	Node.js 18, Espress.js 4
+	API y lógica del servidor
+	Base de Datos
+	MySQL 8.0
+	Gestión de datos
+	Servidor Local
+	MySQL Workbench
+	Para ejecutar la base de datos
+	IDE / Editores
+	Visual Studio Code
+	Edición de código
+	Control de Versiones
+	Git + GitHub
+	Gestión de código
+	Navegadores Compatibles
+	Chrome, Firefox, Edge
+	Pruebas y compatibilidad
+	Otros
+	Postman
+	Pruebas de API
+	
+
+Base de Datos
+La base de datos de Tussy Store está diseñada para gestionar la información de los usuarios, productos, carritos de compra, pedidos y pagos. A continuación, se describen las tablas principales:
+Tablas y Relaciones
+* Usuarios
+Tabla 4 BD: Tabla usuarios
+Campo
+	Tipo de Dato
+	Descripción
+	IdUsuario
+	INT(PK)
+	Identificador único del usuario
+	Nombre
+	VARCHAR(100)
+	Nombre del usuario
+	Email
+	VARCHAR(100)
+	Correo electrónico único 
+	Dirección
+	TEXT
+	Dirección de envío 
+	Historial
+	TEXT
+	Historial de compras
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Productos
+Tabla 5 BD: Tabla Productos
+Campo
+	Tipo de Dato
+	Descripción
+	IdProducto
+	INT(PK)
+	Identificador único del producto
+	Nombre
+	VARCHAR(100)
+	Nombre del producto
+	Descripción
+	TEXT
+	Descripción del producto
+	Precio
+	DECIMAL(10,2)
+	Precio del producto
+	Tallas
+	VARCHAR(50)
+	Tallas disponibles
+	Colores
+	VARCHAR(100)
+	Colores disponibles
+	
+
+* Categorías
+Tabla 6 BD: Tabla Categorías
+Campo
+	Tipo de Dato
+	Descripción
+	IdCategoria
+	INT(PK)
+	Identificador único de la categoría
+	Nombre
+	VARCHAR(100)
+	Nombre de la categoría
+	
+
+
+
+
+
+
+
+
+
+
+
+* Subcategorías
+Tabla 7 BD: Tabla Subcategorías
+Campo
+	Tipo de Dato
+	Descripción
+	IdSubcat.
+	INT(PK)
+	Identificador único de la subcategoría
+	Nombre
+	VARCHAR(100)
+	Nombre de la subcategoría
+	
+
+* Carrito
+Tabla 8 BD: Tabla Carrito
+Campo
+	Tipo de Dato
+	Descripción
+	IdCarrito
+	INT(PK)
+	Identificador único del carrito
+	Items
+	TEXT
+	Lista de productos en el carrito
+	Total
+	DECIMAL(10,2)
+	Total del carrito
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Pedidos
+Tabla 9 BD: Tabla Pedidos
+Campo
+	Tipo de Dato
+	Descripción 
+	IdPedido
+	INT(PK)
+	Identificador único del pedido
+	Estado
+	VARCHAR(50)
+	Estado del pedido (Pendiente, Enviado, etc.)
+	Fecha
+	DATETIME
+	Fecha y hora del pedido
+	Dirección
+	TEXT
+	Dirección de entrega
+	Usuario
+	INT(FK)
+	Relación con usuario(IdUsuario)
+	Pago
+	INT(FK)
+	Relación con pago(IdPago)
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* Pagos
+Tabla 10 BD: Tabla Pagos
+Campo
+	Tipo de Dato
+	Descripción
+	IdPago
+	INT(PK)
+	Identificador único del pago
+	Método
+	VARCHAR(50)
+	Método de pago(Mercado Pago, Nequi y Bancolombia)
+	Estado
+	VARCHAR(50)
+	Estado del pago (Aprobado, Rechazado).
+	
+
+Seguridad y Protección de Datos
+Protección de contraseñas
+El sistema implementará un mecanismo de seguridad robusto para la protección de contraseñas mediante el uso de hashing con el algoritmo bcrypt. Este proceso incluirá un mínimo de 10 rondas de encriptación para garantizar una mayor resistencia contra ataques de fuerza bruta y de diccionario.
+Protección de Endpoints
+El sistema garantizará la seguridad de los endpoints mediante la implementación de múltiples capas de protección, asegurando que solo usuarios y sistemas autorizados puedan acceder a los recursos.
+Autenticación con JWT (JSON Web Token): Se empleará un mecanismo de autenticación basado en tokens JWT, los cuales serán generados y firmados de forma segura. Estos tokens incluirán información relevante del usuario y su nivel de acceso, permitiendo una autenticación sin estado y reduciendo la dependencia de sesiones en el servidor. Además, se establecerán políticas de expiración y renovación para minimizar riesgos de uso indebido.
+Validación de datos en cada solicitud: Para prevenir ataques como inyección de código, manipulación de datos y accesos no autorizados, se implementará una validación rigurosa en todas las peticiones. Esto incluirá la verificación de tipos de datos, estructuras esperadas y autenticidad de los parámetros enviados. Asimismo, se aplicarán filtros y sanitización de datos para evitar vulnerabilidades comunes como SQL Injection y XSS (Cross-Site Scripting).
+Configuración de CORS (Cross-Origin Resource Sharing): Se establecerán reglas estrictas en la configuración de CORS, permitiendo únicamente solicitudes desde dominios autorizados. Esto evitará accesos no deseados a la API desde orígenes desconocidos o maliciosos. Se definirán métodos HTTP permitidos, encabezados específicos y restricciones adicionales para reforzar la seguridad en la comunicación entre clientes y servidores.
+Prevención de Ataques:
+El sistema implementará varias capas de seguridad para mitigar vulnerabilidades y ataques comunes:
+* Protección de cabeceras HTTP con Helmet: Se utilizará el middleware Helmet para reforzar la seguridad de las cabeceras HTTP, protegiendo contra ataques como Clickjacking, MIME sniffing y otras amenazas basadas en la manipulación de respuestas del servidor.
+* Protección contra CSRF con csurf: Se empleará csurf para prevenir ataques de falsificación de solicitudes entre sitios (CSRF), asegurando que cada petición provenga de una fuente legítima mediante tokens de autenticación.
+* Prevención de SQL Injection: Todas las consultas a la base de datos en MySQL se realizarán mediante consultas preparadas, evitando la ejecución de código SQL malicioso y protegiendo la integridad de los datos.
+Despliegue y Mantenimiento
+Plataforma de Hosting
+El sistema será desplegado en Railway, una plataforma de hosting en la nube que permite una implementación eficiente y escalable. Railway proporciona integración continua, administración simplificada de bases de datos y entornos de desarrollo flexibles, asegurando alta disponibilidad y rendimiento óptimo.
+Método de Despliegue
+El sistema utilizará CI/CD con GitHub Actions para automatizar el proceso de integración y despliegue continuo. Esto garantizará la ejecución de pruebas, control de versiones y despliegues eficientes, reduciendo errores y asegurando una entrega rápida y confiable del software.
+Gestor de Logs y Errores
+El sistema contará con un mecanismo eficiente de registro y gestión de errores para garantizar la trazabilidad, el monitoreo y la detección temprana de posibles incidencias en la aplicación.
+* Registro de logs con Winston: Se utilizará Winston como librería principal para la gestión de logs, permitiendo un registro estructurado y configurable de eventos en el sistema. Se definirán diferentes niveles de log (info, warning, error, debug) para facilitar el análisis y diagnóstico de problemas. Además, se configurará la salida de logs en múltiples destinos, como archivos locales, bases de datos o plataformas externas de monitoreo.
+* Manejo centralizado de errores con middlewares: Se implementarán middlewares especializados para capturar y gestionar errores de manera eficiente. Esto incluirá la detección de excepciones en las solicitudes, la respuesta con códigos de estado HTTP apropiados y la personalización de mensajes de error para evitar exposición de información sensible. Asimismo, se registrarán detalles relevantes de cada error en los logs para facilitar la depuración y mejora continua del sistema.
+Optimización y Escalabilidad
+Gestión de Tráfico
+Para garantizar el rendimiento óptimo y la estabilidad del sistema ante altos volúmenes de tráfico, se implementarán estrategias de optimización y protección que mejoren la eficiencia en el manejo de las solicitudes y mitiguen posibles amenazas externas.
+* Optimización de base de datos: Se aplicarán técnicas de indexación, consultas optimizadas y caching para reducir la latencia y mejorar la velocidad de respuesta del sistema. Además, se utilizarán estrategias de sharding y replicación en caso de grandes volúmenes de datos, permitiendo una distribución eficiente de la carga y evitando cuellos de botella.
+* Uso de Cloudflare para distribución de contenido y mitigación de ataques DDoS: Se integrará Cloudflare como una capa de seguridad y optimización, proporcionando CDN (Content Delivery Network) para la distribución eficiente de contenido estático y dinámico. Esto reducirá la carga en los servidores principales y mejorará la experiencia del usuario al disminuir los tiempos de carga. Además, se habilitarán sus herramientas de protección contra ataques DDoS, filtrando tráfico malicioso y bloqueando solicitudes sospechosas antes de que lleguen a la infraestructura del sistema.
+Optimizaciones en Frontend
+Para mejorar el rendimiento y la experiencia del usuario en la aplicación, se implementarán técnicas avanzadas de optimización en el frontend, reduciendo tiempos de carga y optimizando el uso de recursos.
+* Implementación de Lazy Loading: Se utilizará carga diferida (Lazy Loading) para cargar imágenes, scripts y otros recursos solo cuando sean necesarios, evitando el consumo innecesario de ancho de banda y mejorando la velocidad de renderizado inicial. Esto permitirá que el contenido crítico se cargue de inmediato, mientras que los elementos secundarios se carguen de forma progresiva conforme el usuario interactúe con la aplicación.
+* Uso de Prefetching: Se aplicará la técnica de Prefetching para anticipar la carga de recursos y mejorar la navegación. Esto incluirá Preloading de archivos esenciales y Pre-fetch de rutas o datos que el usuario podría requerir próximamente, optimizando la transición entre páginas y reduciendo la percepción de espera en la interacción con la interfaz.
+Mejoras en Base de Datos
+Para optimizar el rendimiento y la eficiencia en la gestión de datos, se implementarán estrategias que permitan reducir la latencia en las consultas y evitar la sobrecarga del sistema.
+* Uso de índices para mejorar la velocidad de consultas: Se aplicarán índices en columnas clave para acelerar la ejecución de consultas y optimizar el acceso a la información almacenada. Esto permitirá reducir el tiempo de búsqueda, minimizar la carga en el servidor y mejorar el rendimiento en operaciones de lectura. Se evaluará el uso de índices primarios, secundarios, compuestos y de texto completo según los requerimientos del sistema.
+* Paginación para evitar sobrecarga de datos: Se implementará un sistema de paginación eficiente en las consultas a la base de datos, evitando la carga excesiva de registros en una sola petición. Se utilizarán estrategias como LIMIT y OFFSET en SQL o cursors en bases de datos NoSQL, optimizando la entrega de datos y mejorando la experiencia del usuario al interactuar con grandes volúmenes de información.
+Panel de Administración
+Funciones
+Las funciones que tendrá el panel de administración son las siguientes:
+* Ver las estadísticas del negocio como las ganancias totales, las ordenes totales, los clientes totales y el balance que lleva la empresa.
+* Tener un control en estadísticas como por ejemplo los productos vendidos, las ordenes vendidas y los usuarios registrados, estas estadísticas las pueden ver los administradores ya sea en por día, por semana o por mes.
+* El manejo de productos como, ingresar un producto, eliminar el producto, poner si está en stock o no, editar el producto (como nombre, descripción, precio, etc.)
+* El manejo de usuarios como registrarlos, eliminarlos, editarlos y como tal tener un control sobre que usuarios hay en la página, ya sean clientes, administradores o trabajadores.
+* El administrador puede ver las ordenes que se llevan, esto te muestra el id del pedido, el nombre del cliente, el producto, la categoría, el IVA, el costo de todo el pedido, la cantidad de productos, la fecha en la que se realizo el pedido y el estado del pedido (Pendiente, Cancelado, Completo o Devuelto).
+* El administrador puede manejar, agregar y eliminar las tareas/eventos que tendrá la tienda en los próximos días, acá se manejan por ejemplo el evento de una nueva prenda que llega a la tienda, para agregarla se llenan los campos de: Titulo del evento, la descripción del evento, las fechas del evento, las etiquetas que tendrá, la imagen con la que se vera el evento y sus respectivos productos.
+Seguridad y Privacidad
+Protección de Datos
+Para garantizar la seguridad y confidencialidad de la información almacenada en el sistema, se implementarán mecanismos avanzados de cifrado que protejan los datos personales y financieros contra accesos no autorizados y posibles filtraciones.
+* Cifrado de datos personales y financieros: Se utilizarán algoritmos de cifrado robustos, como AES (Advanced Encryption Standard) de 256 bits para datos sensibles en reposo y TLS (Transport Layer Security) para la transmisión segura de información. Además, se aplicarán técnicas de encriptación asimétrica con RSA en procesos que requieran intercambio seguro de claves.
+El cifrado se aplicará tanto en la base de datos como en archivos de almacenamiento y comunicaciones, asegurando que los datos críticos, como información de usuarios, credenciales y transacciones financieras, permanezcan protegidos en todo momento. También se implementarán políticas de tokenización y hashing para almacenar datos de forma irreversible cuando sea necesario, reforzando la seguridad del sistema.
+Eliminación de Cuenta
+Para brindar a los usuarios control total sobre su información y cumplir con normativas de privacidad y protección de datos, el sistema permitirá la eliminación de cuentas de manera sencilla y segura.
+* Opción de eliminación desde "Mi Perfil": Los usuarios podrán solicitar la eliminación de su cuenta directamente desde la sección "Mi Perfil", lo que desencadenará un proceso seguro de eliminación de datos asociados.
+El procedimiento asegurará que:
+* Se confirme la identidad del usuario antes de proceder con la eliminación, evitando accesos no autorizados.
+* Se eliminen o anonimicen los datos personales en cumplimiento con normativas como el GDPR y la Ley de Protección de Datos Personales.
+* Se notifique al usuario sobre las implicaciones de la eliminación, incluyendo la pérdida de acceso a su historial, configuraciones y cualquier dato relacionado.
+* Se contemple un período de gracia antes de la eliminación definitiva en caso de recuperación o desistimiento.
+Prevención de Fraudes
+Para garantizar la seguridad en las transacciones y minimizar riesgos de fraude, el sistema implementará mecanismos avanzados de detección y prevención, asegurando la integridad de los procesos de pago y la protección de los usuarios.
+* Verificación de pagos antes del procesamiento: Se aplicará un sistema de validación que analizará cada transacción antes de su aprobación. Esto incluirá la autenticación con 3D Secure, validación de datos del titular de la tarjeta y detección de patrones de compra inusuales. Además, se integrarán pasarelas de pago seguras que cumplan con los estándares PCI DSS (Payment Card Industry Data Security Standard) para proteger la información financiera de los usuarios.
+* Revisión automática de actividad sospechosa: Se implementarán algoritmos de detección de fraudes basados en machine learning, capaces de analizar patrones de comportamiento y marcar automáticamente transacciones sospechosas. Estas revisiones incluirán la detección de múltiples intentos de pago fallidos, compras desde ubicaciones inusuales o discrepancias en la información del usuario. Además, se podrán aplicar bloqueos temporales o solicitudes de verificación adicional en casos de alto riesgo.
+DIAGRAMAS
+Diagrama de Clases
+ Diagrama
+
+El contenido generado por IA puede ser incorrecto. 
+
+Ilustración 1 Diagrama de clases
+Diagrama de Casos de Uso
+ Diagrama
+
+El contenido generado por IA puede ser incorrecto. 
+
+Ilustración 2 Diagrama de Casos de Uso
+
+
+Mapa Mental de la Página Web
+ Diagrama, Esquemático
+
+El contenido generado por IA puede ser incorrecto. 
+
+Ilustración 3 Mapa mental
+
+
+Diagrama Entidad-Relación
+  
+
+Ilustración 4 Diagrama Entidad-Relación
